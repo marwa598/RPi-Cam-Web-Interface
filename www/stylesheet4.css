@@ -1,0 +1,24 @@
+html, body
+
+{
+    margin: 0;  # la marge
+}
+.button 
+{
+    border: none; # bordure des boutons yes/none
+    color: white;   # couleur du texte
+    text-align: center;  # alignement du texte
+    font-size: 10em;  # taille du texte
+    padding: 25px 25px;
+    cursor: pointer;   # forme du curseur
+    width: 100%;   # largeur des boutons
+    height: 50vh;   # hauteur des boutons
+}
+#ON
+{
+    background-color: green;  # couleur bouton ON
+}
+#OFF
+{
+    background-color: red;  # couleur bouton OFF
+}
